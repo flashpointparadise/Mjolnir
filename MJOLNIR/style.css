@@ -1,0 +1,212 @@
+*
+{
+    box-sizing : border-box ;
+    padding : 0 ;
+    margin : 0 ;
+}
+body
+{
+    background-color : black ;
+}
+#center-box
+{
+    width : 100px ;
+    height : 60px ;
+    background-color : white ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ; 
+    right : 0 ;
+    top : 170px ;
+}
+#top-box
+{
+    width : 100px ;
+    height : 10px ;
+    background-color : white ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ;
+    right : 0 ;
+    top : 158px ;
+}
+#bottom-box
+{
+    width : 100px ;
+    height : 10px ;
+    background-color : white ;
+    margin : auto ;
+    position :absolute ;
+    left : 0 ;
+    right : 0 ;
+    top : 232px  ;
+}
+#right-box
+{
+    height : 60px ;
+    width : 15px ;
+    background-color : white ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ;
+    right : 120px ;
+    top : 170px ;
+}
+#left-box
+{
+    height : 60px ;
+    width : 15px ;
+    background-color : white ;
+    margin : auto ;
+    position : absolute ;
+    left : 119px ;
+    right : 0 ;
+    top : 170px ;
+}
+#tri-left-0
+{
+    width : 0 ;
+    height : 0 ;
+    border-top : solid 10px transparent ;
+    border-left : solid 5px transparent ;
+    border-right : solid 5px rgb(255,255,255) ;
+    border-bottom : solid 10px rgb(255,255,255) ;
+    transform : rotate(270deg) ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ;
+    right : 125px ;
+    top : 227px ;
+}
+#tri-right-0
+{
+    width : 0 ;
+    height : 0 ;
+    border-top : solid 10px transparent ;
+    border-left : solid 5px transparent ;
+    border-right : solid 5px rgb(255,255,255) ;
+    border-bottom : solid 10px rgb(255,255,255) ;
+    transform : rotate(90deg) ;
+    margin : auto ;
+    position : absolute ;
+    left : 123px ;
+    right : 0 ;
+    top : 153px ;
+}
+#tri-right-1
+{
+    width : 0 ;
+    height : 0 ;
+    border-top : solid 5px transparent ;
+    border-left : solid 10px transparent ;
+    border-right : solid 10px rgb(255,255,255) ;
+    border-bottom : solid 5px rgb(255,255,255) ;
+    transform : rotate(0deg) ;
+    margin : auto ;
+    position : absolute ;
+    left : 0px ;
+    right : 125px ;
+    top : 158px ;
+}
+#tri-left-1
+{
+    width : 0 ;
+    height : 0 ;
+    border-top : solid 5px transparent ;
+    border-left : solid 10px transparent ;
+    border-right : solid 10px rgb(255,255,255) ;
+    border-bottom : solid 5px rgb(255,255,255) ;
+    transform : rotate(180deg) ;
+    margin : auto ;
+    position : absolute ;
+    left : 124px ;
+    right : 0px ;
+    top : 232px ;
+}
+#holder
+{
+    width : 15px ;
+    height : 145px ;
+    background-color : white ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ;
+    right : 0 ;
+    top : 253px ;
+    border : 1px solid black ;
+}
+line
+{
+    stroke : rgb(0,0,0) ;
+    stroke-width : 2 ;
+}
+#holder-top
+{
+    width : 40px ;
+    height : 0 ;
+    border-bottom : solid 10px rgb(255,255,255) ;
+    border-right : solid 7px transparent ;
+    border-left : solid 7px transparent ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ;
+    right : 0 ;
+    top : 243px ;
+    transform : rotate(180deg) ;
+}
+#holder-bottom
+{
+    width : 25px ;
+    height : 25px ;
+    background-color : white ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ;
+    right : 0 ;
+    top : 395px ;
+    border-radius : 2px ;
+    border : 1px solid black ;
+}
+#thread
+{
+    width : 30px ;
+    height : 30px ;
+    background-color : black ;
+    border-top-left-radius : 10px ;
+    border-top-right-radius : 10px ;
+    border-bottom-left-radius : 10px ;
+    transform : rotate(180deg) ;
+    border : 1px solid white ;
+    margin : auto ;
+    position : absolute ;
+    left : 7px ;
+    right : 0 ;
+    top : 419px ;
+}
+#tip
+{
+    width : 70px ;
+    height : 5px ;
+    background-color : white ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ;
+    right : 0 ;
+    top : 152px ;
+}
+img
+{
+    width : 50px ;
+    height : 50px ;
+    margin : auto ;
+    position : absolute ;
+    left : 0 ; 
+    right : 0 ;
+    top : 5px ;
+}
+h2
+{
+    font-size : 50px ;
+    color : white ;
+    text-align : center ;
+}
